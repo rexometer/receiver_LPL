@@ -21,7 +21,7 @@
 #define FREQUENCY     RF69_433MHZ //Match this with the version of your Moteino! (others: RF69_433MHZ, RF69_868MHZ)
 #define ENCRYPTKEY    "RExometer_enckey" //identical 16 characters/bytes on all nodes, not more not less!
 //#define IS_RFM69HW    //uncomment only for RFM69HW! Leave out if you have RFM69W!
-#define ACK_TIME       1000  // # of ms to wait for an ack packet
+#define ACK_TIME       200  // # of ms to wait for an ack packet
 //*****************************************************************************************************************************
 #define ENABLE_ATC    //comment out this line to disable AUTO TRANSMISSION CONTROL
 #define ATC_RSSI      -70  //target RSSI for RFM69_ATC (recommended > -80)
