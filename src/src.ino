@@ -15,7 +15,7 @@
 //****************************************************************************************************************
 //**** IMPORTANT RADIO SETTINGS - YOU MUST CHANGE/CONFIGURE TO MATCH YOUR HARDWARE TRANSCEIVER CONFIGURATION! ****
 //****************************************************************************************************************
-#define LPL_lowbaudrate
+#define LPL_lowbaudrate // uncomment to lower the baud rate resulting in longer range. Has to be set at transmitter and receiver.
 #define NODEID          1 //the ID of this node
 #define NETWORKID     200 //the network ID of all nodes this node listens/talks to
 #define FREQUENCY     RF69_433MHZ //Match this with the version of your Moteino! (others: RF69_433MHZ, RF69_868MHZ)
